@@ -7,32 +7,35 @@ function App() {
             <main>
                 <h1>Buttons</h1>
                 <div>
-                    <Button className= "default" text= "Default" />
-                    <Button className= "default" text= "Default" />
+                    <Button variant= "default" >Default</Button> 
                 </div>
                 <div>
-                    <Button className= "outline" variant="outline" text= "Default" />
-                    <Button className= "outline" variant="outline" text= "Default" />
+                    <Button variant="outline" >Default</Button>
                 </div>
                 <div>
-                    <Button className= "text" variant="text" text= "Default" />
-                    <Button className= "text" variant="text" text= "Default" />
+                    <Button variant="text" >Default</Button>
                 </div>
                 <div>
-                    <Button className= "disabled-shadow" text= "Default" />
+                    <Button disabledShadow color= "primary" >Default</Button>
                 </div>
                 <div>
-                    <Button className= "disabled default" text= "Default" />
-                    <Button className= "disabled text" variant="text" text= "Default" />
+                    <Button disabled variant= "default" >Desabled</Button>
+                    <Button disabled variant="text" >Desabled</Button>
                 </div>
                 <div>
-                    <Button className= "disabled-shadow start-icon" text= "Default" />
-                    <Button className= "disabled-shadow end-icon" text= "Default" />
+                    <Button startIcon= "start-icon" color= "primary" >Default</Button>
+                    <Button endIcon= "end-icon" color= "primary" >Default</Button>
                 </div>
                 <div>
-                    <Button className= "disabled-shadow sm" text= "Default" />
-                    <Button className= "disabled-shadow md" text= "Default" />
-                    <Button className= "disabled-shadow lg" text= "Default" />
+                    <Button size= "sm" color="primary" >Default</Button>
+                    <Button size= "md" color= "primary" >Default</Button>
+                    <Button size= "lg" color= "primary" >Default</Button>
+                </div>
+                <div>
+                    <Button variant= "default" >Default</Button>
+                    <Button color= "primary" size= "md" >Default</Button>
+                    <Button size= "md" color= "secondary" >Secondary</Button>
+                    <Button size= "md" color= "danger" >Danger</Button>
                 </div>
             </main>
         )

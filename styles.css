@@ -41,11 +41,21 @@ main > div {
     background-color:rgba(41, 98, 255, 0.1);
 }
 
-.disabled-shadow {
+.primary {
     background-color: #3D5AFE;
-    color: #ffffff;
-    box-shadow: none;
+    box-shadow: 0px 2px 3px 0px #0031CA;
     border: none;
+    color: #ffffff;
+}
+
+.primary:hover,
+.primary:focus {
+    background-color: #0039CB;
+    box-shadow: 0px 2px 3px 0px #2962FF;
+}
+
+.disabled-shadow {
+    box-shadow: none;
 }
 
 .disabled {
@@ -54,8 +64,58 @@ main > div {
 
 .start-icon {
     padding-left: 3rem;
+    background-image: url(./assets/local-grocery-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 1rem center;
+}
+
+svg {
+    fill: #ffffff;
+    width: 8px;
+    height: 8px;
 }
 
 .end-icon {
     padding-right: 3rem;
+    background-image: url(./assets/local-grocery-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 4.5rem center;
+}
+
+.sm {
+    padding: 6px 12px;
+}
+
+.md {
+    padding: 8px 16px;
+}
+
+.lg {
+    padding: 11px 22px;
+}
+
+.secondary {
+    background-color:  #455A64;
+    box-shadow: 0px 2px 3px 0px #455A64;
+    border: none;
+    color: #ffffff;
+}
+
+.secondary:hover,
+.secondary:focus {
+    background-color: #1C313A;
+    box-shadow: 0px 2px 3px 0px #455A64;
+}
+
+.danger {
+    background-color:  #D32F2F;
+    box-shadow: 0px 2px 3px 0px #D32F2F;
+    border: none;
+    color: #ffffff;
+}
+
+.danger:hover,
+.danger:focus {
+    background: #9A0007;
+    box-shadow: 0px 2px 3px 0px #D32F2F;
 }
