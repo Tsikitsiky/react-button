@@ -3,6 +3,7 @@ button {
     padding: 8px 16px;
     font-weight: 500;
     border: none;
+    transition: all 0.3s;
 }
 
 main > div {
