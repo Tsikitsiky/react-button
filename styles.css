@@ -29,6 +29,7 @@ button:focus {
 .outline:hover,
 .outline:focus {
     background-color:rgba(41, 98, 255, 0.1);
+    box-shadow: none;
 }
 
 .text {
