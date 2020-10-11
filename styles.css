@@ -1,20 +1,21 @@
 button {
     border-radius: 6px;
-    margin-right: 100px;
     padding: 8px 16px;
     font-weight: 500;
+    border: none;
 }
 
 main > div {
     margin-bottom: 69px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
 }
 
-.default {
-    border: none;
-}
 
-.default:hover,
-.default:focus {
+ button:hover,
+button:focus {
     background-color: #AEAEAE;
     box-shadow: 0px 2px 3px 0px #333333;
 }
@@ -39,6 +40,7 @@ main > div {
 .text:hover,
 .text:focus {
     background-color:rgba(41, 98, 255, 0.1);
+    box-shadow: none;
 }
 
 .primary {
@@ -54,7 +56,12 @@ main > div {
     box-shadow: 0px 2px 3px 0px #2962FF;
 }
 
-.disabled-shadow {
+.disabledShadow {
+    box-shadow: none;
+}
+
+.disabledShadow:hover,
+.disabledShadow:hover{
     box-shadow: none;
 }
 
@@ -63,23 +70,20 @@ main > div {
 }
 
 .start-icon {
-    padding-left: 3rem;
-    background-image: url(./assets/local-grocery-icon.svg);
+    padding-left: 2.5rem;
+    background-image: url(./assets/add_shopping_cart-24px.svg);
     background-repeat: no-repeat;
-    background-position: 1rem center;
+    background-position: 16px center;
+    background-size: 14px 14px;
 }
 
-svg {
-    fill: #ffffff;
-    width: 8px;
-    height: 8px;
-}
 
 .end-icon {
-    padding-right: 3rem;
-    background-image: url(./assets/local-grocery-icon.svg);
+    padding-right: 2.5rem;
+    background-image: url(./assets/add_shopping_cart-24px.svg);
     background-repeat: no-repeat;
-    background-position: 4.5rem center;
+    background-position: 4.25rem center;
+    background-size: 14px 14px;
 }
 
 .sm {

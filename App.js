@@ -7,7 +7,7 @@ function App() {
             <main>
                 <h1>Buttons</h1>
                 <div>
-                    <Button variant= "default" >Default</Button> 
+                    <Button >Default</Button> 
                 </div>
                 <div>
                     <Button variant="outline" >Default</Button>
@@ -19,8 +19,8 @@ function App() {
                     <Button disabledShadow color= "primary" >Default</Button>
                 </div>
                 <div>
-                    <Button disabled variant= "default" >Desabled</Button>
-                    <Button disabled variant="text" >Desabled</Button>
+                    <Button disabled >Disabled</Button>
+                    <Button variant="text" disabled >Disabled</Button>
                 </div>
                 <div>
                     <Button startIcon= "start-icon" color= "primary" >Default</Button>
@@ -32,7 +32,7 @@ function App() {
                     <Button size= "lg" color= "primary" >Default</Button>
                 </div>
                 <div>
-                    <Button variant= "default" >Default</Button>
+                    <Button >Default</Button>
                     <Button color= "primary" size= "md" >Default</Button>
                     <Button size= "md" color= "secondary" >Secondary</Button>
                     <Button size= "md" color= "danger" >Danger</Button>
