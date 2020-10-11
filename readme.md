@@ -1,7 +1,5 @@
 # Button component
 
-![assets/Screenshot_2020-10-08_at_11.22.44.png](assets/Screenshot_2020-10-08_at_11.22.44.png)
-
 **React Challenge:** Create a reusable button with all the states in the design and a page displaying all the states.
 
 ### User stories fullfilled: ###
