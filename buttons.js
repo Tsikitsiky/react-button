@@ -18,7 +18,7 @@ function Button(props) {
 
     return(
         
-    <button className={classUsed && classUsed} disabled= {props.disabled && 'disabled'} variant= {props.variant && props.variant} disabled= {props.disabled && 'disabled'} disabledshadow= {props.disabledShadow && 'disabledShadow'}>{props.children}</button>
+    <button className={classUsed && classUsed} endicon={props.endIcon && props.endIcon} starticon={props.startIcon && props.startIcon} size={props.size && props.size} disabled= {props.disabled && 'disabled'} variant= {props.variant && props.variant} color= {props.color && props.color} disabledshadow= {props.disabledShadow && 'disabledShadow'}>{props.children}</button>
     )
 }
 

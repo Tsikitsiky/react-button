@@ -7,7 +7,7 @@ button {
 }
 
 main > div {
-    margin-bottom: 69px;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 50px;
