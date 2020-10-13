@@ -6,6 +6,8 @@ function Button(props) {
         classUsed = `${props.variant} disabled` 
     } else if(props.variant) {
         classUsed = `${props.variant} `
+    }else if(props.disabled) {
+        classUsed = `disabled `
     } else if(props.color && props.size) {
         classUsed = `${props.color} ${props.size}`
     } else if(props.startIcon && props.color) {
@@ -18,7 +20,7 @@ function Button(props) {
 
     return(
         
-    <button className={classUsed && classUsed} endicon={props.endIcon && props.endIcon} starticon={props.startIcon && props.startIcon} size={props.size && props.size} disabled= {props.disabled && 'disabled'} variant= {props.variant && props.variant} color= {props.color && props.color} disabledshadow= {props.disabledShadow && 'disabledShadow'}>{props.children}</button>
+    <button className={classUsed && classUsed} disabled= {props.disabled} >{props.children}</button>
     )
 }
 

@@ -75,7 +75,7 @@ button:focus {
 
 .start-icon {
     padding-left: 2.5rem;
-    background-image: url(./assets/add_shopping_cart-24px.svg);
+    background-image: url(/add_shopping_cart-24px.38b222a0.svg);
     background-repeat: no-repeat;
     background-position: 16px center;
     background-size: 14px 14px;
@@ -84,7 +84,7 @@ button:focus {
 
 .end-icon {
     padding-right: 2.5rem;
-    background-image: url(./assets/add_shopping_cart-24px.svg);
+    background-image: url(/add_shopping_cart-24px.38b222a0.svg);
     background-repeat: no-repeat;
     background-position: 4.25rem center;
     background-size: 14px 14px;
@@ -127,3 +127,5 @@ button:focus {
     background: #9A0007;
     box-shadow: 0px 2px 3px 0px #D32F2F;
 }
+
+/*# sourceMappingURL=/script.75da7f30.css.map */
